@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate">
+  <title>hugo博客添加搜索功能 &middot; mapleTan的杂物间</title>
+  <meta name="keywords" content="素锦, inspiration, customization, rainmeter, design, web, 壁纸, 设计, 收集, wallpaper, collection, jaku, icon">
+  <meta name="description" content="世界上每个角落都有人过着相似的人生">
+  <meta name="author" content="mapleTan">
+  <link rel="icon" type="image/png" href="">
+  <link rel="stylesheet" href="/css/diaspora.css">
+  <link rel="stylesheet" href="/css/insight.css">
+  <link rel="stylesheet" href="/css/custom.css">
+</head><body class="loading">
+        <div id="loading"></div>
+				<div id="nav"></div>
+				<div class="nav-user"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+        <div class="bar">
+        </div>
+        <a class="icon-icon" href="javascript:history.back()">
+        </a>
+        <div title="播放/暂停" class="icon-play">
+        </div>
+        
+        <h3 class="subtitle" style="display: none;">
+        hugo博客添加搜索功能</h3>
+        <div class="social">
+            <div>
+                <div class="share">
+                    <a title="获取二维码" class="icon-wechat" href="javascript:;"></a>
+                </div>
+                <div id="qr"></div>
+            </div>
+        </div>
+        <div class="scrollbar" style="width: 1.1636%;"></div>
+    </div>
+    <div class="section">
+        <div class="article">
+            <div>
+                <h1 class="title">
+                hugo博客添加搜索功能</h1>
+                <div class="stuff">
+                    
+                    <span>June 20, 2020</span>
+                    <span>字数 1007</span>
+                    
+                    
+                </div>
+                <div class="content">
+                    <h2 id="碎碎念">碎碎念</h2>
+<p>由于hugo没有插件接口或者有我这小白还不知道。目前官方大部分的主题都没有搜索功能，而一些拥有搜索功能的主题大部分是使用第三方搜索，比如google站内搜索，Algolia搜索等等，google搜索服务在国内不适用，Algolia配置麻烦，每次更新文章又需要上传，虽然功能强大，但对于个人博客这种小站点末免有些杀鸡用牛刀了。而且最关键一点在于三方免费服务的不稳定性，于是还是想采用本地搜索功能。 还好，hugo官方也考虑到了用户的搜索需求，在官方文档里提供了几种解决方案（谷歌翻译）：</p>
+<h2 id="heading"></h2>
+<p>Hugo Workflow的GitHub要点。这个要点包含一个简单的工作流程，可以为您的静态网站创建搜索索引。它使用简单的Grunt脚本索引所有内容文件和lunr.js以提供搜索结果。</p>
+<p>hugo-elasticsearch。通过解析前端问题为Hugo静态站点生成Elasticsearch索引。Hugo-Elasticsearch将生成换行符分隔的JSON（NDJSON）文件，该文件可以使用任何一个可用客户端批量上传到Elasticsearch 。</p>
+<p>hugo-lunr。使用lunr.js将站点搜索添加到静态Hugo站点的简单方法。Hugo-lunr将在您的Hugo项目中创建任何html和markdown文档的索引文件。</p>
+<p>hugo-lunr-zh。有点像Hugo-lunr，但Hugo-lunr-zh可以帮助你分开中文关键词。</p>
+<p>Github Gist for Fuse.js集成。这个要点演示了如何利用Hugo现有的构建时间处理来生成客户端Fuse.js使用的可搜索JSON索引。虽然这个要点使用Fuse.js进行模糊匹配，但任何能够读取JSON索引的客户端搜索工具都可以工作。除了Hugo之外，不需要npm，grunt或其他构建时工具！</p>
+<p>hugo-search-index。包含Gulp任务的库和实现搜索的预构建浏览器脚本。Gulp从项目降价文件生成搜索索引。</p>
+<p>一开始选择的是hugo-lunr-zh，因为hugo-lunr不支持中文切词。后来使用过程中发现他生成的json文件都是切好分开的，在搜索显示的时候显得很不美观。换hugo-lunr又发现其自带搜索api功能很少，也没有样式。于是想到之前一直使用的InsightSearch插件，因为json格式都是一样的，可以只用lunr.js仅生成json，然后用InsightSearch搜索。</p>
+<h2 id="下面是作者的改进方法">下面是作者的改进方法</h2>
+<pre><code>https://baijiahao.baidu.com/s?id=1638866834506633842&amp;wfr=spider&amp;for=pc</code></pre>
+
+                    
+                    <audio id="audio" loop="1" preload="auto" style="width: 100%;" controls="controls">
+                        <source type="audio/mpeg" src="/mp3/%e3%82%86%e3%82%8b%e3%82%ad%e3%83%a3%e3%83%b3%e2%96%b3%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e.mp3">
+                        <a href="/mp3/%e3%82%86%e3%82%8b%e3%82%ad%e3%83%a3%e3%83%b3%e2%96%b3%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e.mp3">/mp3/ゆるキャン△のテーマ.mp3</a>
+                    </audio>
+                </div>
+                <div class="comment-wrap">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relate">
+        <ul>
+            <h3 id="prev_next">
+                <em>相 关 文 章</em>
+                <span>
+                    <a href="javascript: window.scrollTo(0, 0);">
+                    返回顶部</a>
+                    
+                        <a href="https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/" rel="prev">上一篇</a>
+                    
+                    
+                </span>
+            </h3>
+            
+            
+            
+                
+                    
+                
+                    
+                    <li>
+                        <div>
+                            <a class="relatea" href="https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/" title="博客搭建记录">
+                            博客搭建记录</a>
+                            <p>参考了CodeSheep的b站视频，使用hugo搭建的个人博客，主题使用了素锦的主题，主题作者联系方...</p>
+                        </div>
+                        
+                        <a href="https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/" title="博客搭建记录">
+                            <img class="relateimg" src="/img/timg.jpg" alt="博客搭建记录">
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        <div>
+                            <a class="relatea" href="https://mapletan1113.github.io/posts/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/" title="你走了真好，不然总担心你要走">
+                            你走了真好，不然总担心你要走</a>
+                            <p>最近一次苏晴产生离婚的想法，是两个月以前，天桥下买煎饼的时候。 老公掏零钱，不小心从裤兜里掉落一袋套套...</p>
+                        </div>
+                        
+                        <a href="https://mapletan1113.github.io/posts/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/" title="你走了真好，不然总担心你要走">
+                            <img class="relateimg" src="/img/wallhaven-672007-2.jpg" alt="你走了真好，不然总担心你要走">
+                        </a>
+                    </li>
+                    
+                
+            
+        </ul>
+    </div>
+</div>
+<p style="text-align: center;">
+  <a style="color: inherit" target="_blank" href="https://github.com/honjun/hugo-theme-diaspora"></a>
+</p>
+
+<script>
+  var siteTitle = "mapleTan的杂物间";
+</script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/diaspora.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/InsightSearch.js"></script>
+</body>
+</html>
+

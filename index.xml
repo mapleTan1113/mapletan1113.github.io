@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mapleTan的杂物间</title>
+    <link>https://mapletan1113.github.io/</link>
+    <description>Recent content on mapleTan的杂物间</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 20 Jun 2020 23:23:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://mapletan1113.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo博客添加搜索功能</title>
+      <link>https://mapletan1113.github.io/posts/hogo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sat, 20 Jun 2020 23:23:34 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/posts/hogo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</guid>
+      <description>碎碎念 由于hugo没有插件接口或者有我这小白还不知道。目前官方大部分的主题都没有搜索功能，而一些拥有</description>
+    </item>
+    
+    <item>
+      <title>博客搭建记录</title>
+      <link>https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Thu, 11 Jun 2020 23:36:51 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      <description>参考了CodeSheep的b站视频，使用hugo搭建的个人博客，主题使用了素锦的主题，主题作者联系方</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://mapletan1113.github.io/links/</link>
+      <pubDate>Sat, 20 Apr 2019 23:10:44 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/links/</guid>
+      <description>本站使用的主题是 hugo素锦主题 感兴趣的可加Hugo&amp;amp;Hexo博客群：801511924。</description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>https://mapletan1113.github.io/archives/</link>
+      <pubDate>Sat, 20 Apr 2019 13:29:27 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>你走了真好，不然总担心你要走</title>
+      <link>https://mapletan1113.github.io/posts/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/</link>
+      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/posts/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/</guid>
+      <description>最近一次苏晴产生离婚的想法，是两个月以前，天桥下买煎饼的时候。 老公掏零钱，不小心从裤兜里掉落一袋套套</description>
+    </item>
+    
+    <item>
+      <title>hugo简介</title>
+      <link>https://mapletan1113.github.io/posts/hugo%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/posts/hugo%E7%AE%80%E4%BB%8B/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。对比Hexo，Hugo</description>
+    </item>
+    
+  </channel>
+</rss>

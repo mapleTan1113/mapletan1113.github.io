@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on mapleTan的杂物间</title>
+    <link>https://mapletan1113.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on mapleTan的杂物间</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 20 Jun 2020 23:23:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://mapletan1113.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo博客添加搜索功能</title>
+      <link>https://mapletan1113.github.io/posts/hogo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sat, 20 Jun 2020 23:23:34 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/posts/hogo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</guid>
+      <description>碎碎念 由于hugo没有插件接口或者有我这小白还不知道。目前官方大部分的主题都没有搜索功能，而一些拥有</description>
+    </item>
+    
+    <item>
+      <title>博客搭建记录</title>
+      <link>https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Thu, 11 Jun 2020 23:36:51 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      <description>参考了CodeSheep的b站视频，使用hugo搭建的个人博客，主题使用了素锦的主题，主题作者联系方</description>
+    </item>
+    
+  </channel>
+</rss>
