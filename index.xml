@@ -6,10 +6,19 @@
     <description>Recent content on mapleTan的杂物间</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 20 Jun 2020 23:23:34 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 13:57:37 +0800</lastBuildDate>
     
 	<atom:link href="https://mapletan1113.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testpost</title>
+      <link>https://mapletan1113.github.io/2020/07/19/Testpost/</link>
+      <pubDate>Sun, 19 Jul 2020 13:57:37 +0800</pubDate>
+      
+      <guid>https://mapletan1113.github.io/2020/07/19/Testpost/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo博客添加搜索功能</title>
