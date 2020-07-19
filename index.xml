@@ -6,18 +6,18 @@
     <description>Recent content on mapleTan的杂物间</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Jul 2020 13:57:37 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 14:21:18 +0800</lastBuildDate>
     
 	<atom:link href="https://mapletan1113.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testpost</title>
-      <link>https://mapletan1113.github.io/2020/07/19/Testpost/</link>
-      <pubDate>Sun, 19 Jul 2020 13:57:37 +0800</pubDate>
+      <title>更新博客步骤</title>
+      <link>https://mapletan1113.github.io/posts/%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%AD%A5%E9%AA%A4/</link>
+      <pubDate>Sun, 19 Jul 2020 14:21:18 +0800</pubDate>
       
-      <guid>https://mapletan1113.github.io/2020/07/19/Testpost/</guid>
-      <description></description>
+      <guid>https://mapletan1113.github.io/posts/%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%AD%A5%E9%AA%A4/</guid>
+      <description>每次更新hugo博客所需步骤 先cmd到本地博客项目的文件夹 cd C:\Users\mapleTan\programming\mapleBlog\hugo\bin\test3 新建一个md文件 hugo new posts/FileName.md 写完博文后在博客</description>
     </item>
     
     <item>

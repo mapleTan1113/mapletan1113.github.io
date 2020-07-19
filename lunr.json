@@ -30,5 +30,11 @@
             "hugo",
             "JavaScript"
         ]
+    },
+    {
+        "uri": "/posts/更新博客步骤",
+        "title": "更新博客步骤",
+        "content": "本文记录了每次更新博客所需步骤,以后直接copy就完事",
+        "tags": []
     }
 ]
